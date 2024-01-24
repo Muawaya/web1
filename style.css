@@ -166,7 +166,7 @@ section {
     margin-left: 10PX;
 
 }
-}
+
 
 
 
@@ -177,8 +177,6 @@ section {
 
 }
 
-
-
 @media screen and (max-width:600px) and (orientation:landscape){
 
     .main {
@@ -186,7 +184,7 @@ section {
         position:fixed;
         display: flex;
         font: optional;
-      
+
 
    }
 }
@@ -197,6 +195,8 @@ section {
         position:fixed;
         display: flex;
         font: optional;
+
+
     }
 
 }
@@ -209,9 +209,33 @@ section {
         position:fixed;
         display: flex;
         font: optional;
+
+
     }
 
 }
+@media screen and (max-width:320px) and (orientation:landscape){
 
+    .main {
+        width: 100%;
+        position:fixed;
+        display: flex;
+        font: optional;
+
+
+   }
+}
+
+@media screen and (max-width:1024px) and (orientation:landscape){
+
+    .main {
+        width: 100%;
+        position:fixed;
+        display: flex;
+        font: optional;
+
+
+   }
+}
 
 
