@@ -176,26 +176,22 @@ section {
 
 
 }
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
-@media only screen and (max-width:600px) and (orientation:landscape){
+
+@media screen and (max-width:600px) and (orientation:landscape){
 
     .main {
-        width: 100%;
+        max-width: 600px;
         position:fixed;
         display: flex;
         font: optional;
 
 
    }
-} 
-@media only screen and (max-width: 992ppx) and (orientation:landscape) {
+}
+@media  screen and (max-width: 992ppx) and (orientation:landscape) {
 
     .main {
-        width: 100%;
+        max-width: 992px;
         position:fixed;
         display: flex;
         font: optional;
@@ -206,10 +202,10 @@ section {
 }
 
 
-@media only screen and (max-width:768px) and (orientation:landscape) {
+@media screen and (max-width:768px) and (orientation:landscape) {
 
     .main {
-        width: 100%;
+        max-width: 768px;
         position:fixed;
         display: flex;
         font: optional;
@@ -218,10 +214,10 @@ section {
     }
 
 }
-@media only screen and (max-width:320px) and (orientation:landscape){
+@media screen and (max-width:320px) and (orientation:landscape){
 
     .main {
-        width: 100%;
+       max-width: 320px;
         position:fixed;
         display: flex;
         font: optional;
@@ -230,10 +226,10 @@ section {
    }
 }
 
-@media only screen and (max-width:1024px) and (orientation:landscape){
+@media screen and (max-width:1024px) and (orientation:landscape){
 
     .main {
-        width: 100%;
+       max-width: 1024px;
         position:fixed;
         display: flex;
         font: optional;
@@ -242,5 +238,8 @@ section {
    }
 }
 
-
-
+@media screen and (max-width:640px) {
+    .main{
+        max-width: 640px;
+    }
+}
