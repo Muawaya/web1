@@ -177,13 +177,15 @@ section {
 
 }
 
-@media screen and (max-width:600px) and (orientation:landscape) {
+
+
+@media screen and (max-width:600px) and (orientation:landscape){
 
     .main {
         width: 100%;
 
-   
-
+   }
+}
 @media  screen and (max-width: 992ppx) and (orientation:landscape) {
 
     .main {
@@ -203,4 +205,5 @@ section {
 
 }
 
-/*600px, 601px, 768px, 992px, 1200px */
+
+
