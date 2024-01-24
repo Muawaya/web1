@@ -166,6 +166,8 @@ section {
     margin-left: 10PX;
 
 }
+}
+
 
 
 
@@ -175,8 +177,14 @@ section {
 
 }
 
+@media screen and (max-width:600px) and (orientation:landscape) {
 
-@media only screen and (max-width:600px) and (orientation:landscape) {
+    .main {
+        width: 100%;
+
+   
+
+@media  screen and (max-width: 992ppx) and (orientation:landscape) {
 
     .main {
         width: 100%;
@@ -186,7 +194,7 @@ section {
 }
 
 
-@media only screen and (max-width:768px) and (orientation:landscape) {
+@media screen and (max-width:768px) and (orientation:landscape) {
 
     .main {
         width: 100%;
