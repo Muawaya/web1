@@ -183,6 +183,10 @@ section {
 
     .main {
         width: 100%;
+        position:fixed;
+        display: flex;
+        font: optional;
+      
 
    }
 }
@@ -190,7 +194,9 @@ section {
 
     .main {
         width: 100%;
-
+        position:fixed;
+        display: flex;
+        font: optional;
     }
 
 }
@@ -200,7 +206,9 @@ section {
 
     .main {
         width: 100%;
-
+        position:fixed;
+        display: flex;
+        font: optional;
     }
 
 }
